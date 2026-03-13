@@ -1,12 +1,12 @@
-import React from 'react'
-import Home from './pages/Home'
+import Home from './pages/Home'; // Verifique se o caminho está correto
+import './assets/App.css'; 
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Home />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
