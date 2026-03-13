@@ -1,7 +1,8 @@
-import Home from './pages/Home'; // Verifique se o caminho está correto
-import './assets/App.css'; 
+import React from 'react';
+import Home from './pages/Home';
 
 function App() {
+  console.log("O App está renderizando!");
   return (
     <div className="App">
       <Home />
